@@ -1,7 +1,7 @@
 # HR-Data-Analysis-with-Python
 
 ## Business Problem
-Employee turnover is expensive. The HR department wants to understand which factors are associated with attrition.
+The HR department wants to understand which factors are associated with attrition.
 
 ## Objectives
 * Explore and clean data
