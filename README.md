@@ -1,11 +1,12 @@
 # HR-Attrition-Data-Analysis-Python
 
 ## Business Problem
-Employee turnover is expensive. The HR department wants to understand which factors are associated with attrition.
+The HR department wants to understand which factors are associated with attrition.
 
 ## Dataset
 HR Analytics Employee Attrition dataset — 1,480 employee records across 38 columns, including demographics, job role, compensation, satisfaction scores, and tenure.
-Datsaset sourse: https://www.kaggle.com/datasets/anshika2301/hr-analytics-dataset/data
+
+Dataset sourse: https://www.kaggle.com/datasets/anshika2301/hr-analytics-dataset/data
 
 ## Objectives
 * Explore and clean data
