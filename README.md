@@ -19,7 +19,7 @@ HR Analytics Employee Attrition dataset containing **1,470 employee records** an
 ## Scope
 This analysis focuses on a selected set of relationships, such as department, overtime, job satisfaction, and tenure, rather than every variable in the dataset. Other factors, such as income, distance from home, work-life balance, or job role, could be explored in further analysis.
 
-## Tools & Skills Demonstrated
+## Tools & Technologies
 * Python (Pandas, NumPy, Matplotlib)
 * Data cleaning (duplicates, missing values)
 * GroupBy operations
