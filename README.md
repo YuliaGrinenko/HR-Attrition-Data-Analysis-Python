@@ -9,8 +9,8 @@ Employee attrition can lead to increased recruitment costs and reduced productiv
 - Calculate the overall employee attrition rate.
 - Analyse attrition across selected employee characteristics, including department, overtime, job satisfaction, and tenure.
 - Identify patterns associated with employee turnover.
-- Provide data-driven business recommendations.
-- 
+- Provide data-driven insights.
+  
 ## Dataset
 HR Analytics Employee Attrition dataset containing **1,470 employee records** and **38 variables**, including employee demographics, job role, compensation, satisfaction scores, performance, and tenure.
 
@@ -28,17 +28,17 @@ This analysis focuses on a selected set of relationships, such as department, ov
 
 
 ## Key Findings
-* Overall attrition rate: 16.1%
-* Employees working overtime had a much higher attrition rate (30.62%) than those who didn't (10.36%) which is the strongest pattern in the data.
-* Sales had the highest departmental attrition rate (20.67%), ahead of HR (19.05%) and R&D (13.75%).
-* Employees with 0–2 years of tenure left at nearly double the rate (29.82%) of any other tenure group.
-* Attrition generally declined as job satisfaction increased, though the relationship wasn't fully linear.
 
-## Business Recommendations
+- **Overall attrition rate:** 16.1% of employees left the company.
 
-- Review workload and overtime practices to reduce employee turnover.
-- Prioritise retention initiatives during employees' first two years with the company.
-- Develop targeted retention strategies for departments experiencing higher attrition, particularly Sales
+- **Department:** Sales recorded the highest attrition rate (20.67%), followed by Human Resources (19.05%) and Research & Development (13.75%).
+
+- **Overtime:** More employees who left the company had worked overtime than had not, suggesting that overtime may be associated with employee turnover.
+
+- **Tenure:** Most employees who left had 0–2 years of service, indicating that attrition is highest during the early stages of employment.
+
+- **Job Satisfaction:** Employees who left were distributed across all job satisfaction levels, with no clear relationship observed between job satisfaction and attrition in this dataset.
+
 
 ## Project Structure
 * `HR_Analytics_Project.ipynb` — full analysis notebook (EDA, cleaning, visualisation, insights)
