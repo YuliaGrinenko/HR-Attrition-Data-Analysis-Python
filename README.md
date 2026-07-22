@@ -60,9 +60,7 @@ Other variables, such as income, job role, distance from home, and work-life bal
 
 ## 🛠 Tools & Technologies
 
-- Python
-- Pandas
-- Matplotlib
+- Python (Pandas, Matplotlib)
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
 - GroupBy analysis
@@ -88,4 +86,4 @@ Other variables, such as income, job role, distance from home, and work-life bal
 
 Following this exploratory analysis, an interactive **Power BI HR Attrition Dashboard** was created to present key findings through business-focused visualisations and KPIs.
 
-➡️ "HR Attrition Analysis Dashboard (Power BI)("https://github.com/YuliaGrinenko/HR-Attrition-Dashboard-Power-BI)
+➡️ [HR Attrition Analysis Dashboard](https://github.com/YuliaGrinenko/HR-Attrition-Dashboard-Power-BI)
