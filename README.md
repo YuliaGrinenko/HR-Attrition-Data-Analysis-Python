@@ -1,6 +1,6 @@
-# 🐍 HR Attrition Analysis with Python
+# HR Attrition Analysis with Python
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores employee attrition patterns using Python and the IBM HR Analytics Employee Attrition dataset.
 
@@ -10,7 +10,7 @@ This project represents the exploratory analysis stage of the HR analytics proce
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Employee attrition can increase recruitment costs, impact productivity, and create challenges for workforce planning.
 
@@ -18,7 +18,7 @@ The HR department wants to understand which employee characteristics are associa
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Explore and clean the HR dataset.
 - Calculate the overall employee attrition rate.
@@ -28,7 +28,7 @@ The HR department wants to understand which employee characteristics are associa
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Dataset:** IBM HR Analytics Employee Attrition & Performance
 
@@ -45,7 +45,7 @@ The dataset contains information on 1,470 rows** and **38 columns, including:
 
 ---
 
-## 🔍 Analysis Scope
+## Analysis Scope
 
 This analysis focuses on selected factors related to employee turnover:
 
@@ -58,7 +58,7 @@ Other variables, such as income, job role, distance from home, and work-life bal
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, Matplotlib)
 - Data cleaning and preprocessing
@@ -68,7 +68,7 @@ Other variables, such as income, job role, distance from home, and work-life bal
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - **Overall attrition rate:** 16.1% of employees left the company.
 
