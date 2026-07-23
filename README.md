@@ -92,6 +92,9 @@ plt.ylabel("Number of Employees")
 plt.title("Employees Who Left by Tenure Group")
 plt.bar_label(bars)
 plt.show()
+
+![Chart](dashboard.png)
+
 ```
 ---
 
