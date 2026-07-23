@@ -80,6 +80,10 @@ Other variables, such as income, job role, distance from home, and work-life bal
 
 - **Job Satisfaction:** Employees who left were distributed across all satisfaction levels, with no clear relationship identified in this dataset.
 
+  
+➡️ [Open HR Analytics Project Notebook](HR_Analytics_Project.ipynb)
+
+
 ---
 
 ## 🔗 Related Project
