@@ -41,20 +41,7 @@ The dataset contains information on 1,470 rows** and **38 columns, including:
 - Performance indicators
 - Years at company
 
-**Source:** Kaggle – IBM HR Analytics Employee Attrition Dataset
-
----
-
-## Analysis Scope
-
-This analysis focuses on selected factors related to employee turnover:
-
-- Department
-- Overtime
-- Job satisfaction
-- Years at company
-
-Other variables, such as income, job role, distance from home, and work-life balance, could be explored in further analysis.
+**Source:** Kaggle – IBM HR Analytics Employee Attrition Dataset.
 
 ---
 
@@ -66,6 +53,21 @@ Other variables, such as income, job role, distance from home, and work-life bal
 - GroupBy analysis
 - Data visualisation
 
+---
+
+## 📸 Analysis Highlights
+
+### 🔎 Data Exploration & Cleaning
+
+The first stage of the analysis involved exploring the dataset structure, checking data types, identifying missing values, and removing duplicate records.
+
+Example of dataset exploration:
+
+```
+df.info()
+df.describe()
+df.isnull().sum()
+```
 ---
 
 ## Key Findings
