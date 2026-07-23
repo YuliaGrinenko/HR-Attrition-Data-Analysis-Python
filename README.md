@@ -55,18 +55,43 @@ The dataset contains information on 1,470 rows** and **38 columns, including:
 
 ---
 
-## 📸 Analysis Highlights
+## Analysis Highlights
 
-### 🔎 Data Exploration & Cleaning
+### Data Exploration & Cleaning
 
 The first stage of the analysis involved exploring the dataset structure, checking data types, identifying missing values, and removing duplicate records.
-
-Example of dataset exploration:
 
 ```
 df.info()
 df.describe()
 df.isnull().sum()
+df_clean = df.copy()
+df_clean = df.drop_duplicates()
+df_clean[df_clean["YearsWithCurrManager"].isnull()]
+```
+### Attrition Analysis Using GroupBy
+Calculating attrition rate and attrition patterns across different employee characteristics.
+```
+attrition_rate = ((df_clean["Attrition"] == "Yes").mean() * 100).round(1)
+
+department_total=df_clean.groupby('Department').size()
+department_attrition = df_clean[df_clean["Attrition"] == "Yes"].groupby("Department").size()
+department_attrition_rate = (department_attrition / department_total * 100).round(1).sort_values(ascending=False)
+```
+### Data Visualisation
+Matplotlib was used to create charts to identify trends and compare attrition patterns.
+```
+plt.figure(figsize=(8,5))
+bars = plt.bar(
+    tenure_attrition.index,
+    tenure_attrition.values,
+    color=["#4C78A8", "#F58518", "#54A24B"]
+)
+plt.xlabel("Years at Company")
+plt.ylabel("Number of Employees")
+plt.title("Employees Who Left by Tenure Group")
+plt.bar_label(bars)
+plt.show()
 ```
 ---
 
