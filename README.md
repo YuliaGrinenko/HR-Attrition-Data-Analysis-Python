@@ -72,8 +72,6 @@ df_clean[df_clean["YearsWithCurrManager"].isnull()]
 ### Attrition Analysis Using GroupBy
 Calculating attrition rate and attrition patterns across different employee characteristics.
 ```
-attrition_rate = ((df_clean["Attrition"] == "Yes").mean() * 100).round(1)
-
 department_total=df_clean.groupby('Department').size()
 department_attrition = df_clean[df_clean["Attrition"] == "Yes"].groupby("Department").size()
 department_attrition_rate = (department_attrition / department_total * 100).round(1).sort_values(ascending=False)
@@ -92,10 +90,9 @@ plt.ylabel("Number of Employees")
 plt.title("Employees Who Left by Tenure Group")
 plt.bar_label(bars)
 plt.show()
-
-![Chart](dashboard.png)
-
 ```
+![Chart](chart.png)
+
 ---
 
 ## Key Findings
